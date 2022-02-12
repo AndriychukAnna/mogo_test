@@ -1,0 +1,36 @@
+.section-hero {
+  background: url(../images/hero_bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.hero {
+  width: 100%;
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 100px auto 0;
+    text-align: center;
+  }
+  &__suptitle {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    text-align: center;
+  }
+  &__title {
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 60px;
+  }
+  &__btn {
+    background-color: inherit;
+  }
+}
