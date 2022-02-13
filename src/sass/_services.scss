@@ -17,6 +17,7 @@
     justify-content: center;
   }
   &__link {
+    transition: 0.2s linear, color 0.2s linear;
     fill: #95e1d3;
     &:hover {
       fill: #f38181;
