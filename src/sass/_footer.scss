@@ -39,7 +39,7 @@
     display: block;
     width: 450px;
     height: 50px;
-    color: #fff;
+    color: #000;
     padding-left: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: rgba(117, 190, 218, 0);
@@ -65,7 +65,7 @@
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #000000;
+    color: #ffffff;
     transition: 0.2s linear, color 0.2s linear;
     &:hover,
     :focus {
